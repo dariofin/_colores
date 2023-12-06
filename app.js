@@ -1,4 +1,5 @@
 const body = document.getElementsByTagName("body");
+const titulo = document.getElementById("titulo");
 const colorHexNum = document.getElementById("colorhex-num");
 const botonCambiar = document.getElementById("boton-cambiar");
 
@@ -8,9 +9,11 @@ const hexValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 
 botonCambiar.addEventListener("click", fnCambiaFondo);
 
-function fnCambiaFondo(colorRnd) {
-	colorHexNum.innerText = `#${fnRandom()}`;
-	body[0].style.backgroundColor = `#${fnRandom()}`;
+function fnCambiaFondo() {
+	const colorRndm = `#${fnRandom()}`;
+	colorHexNum.innerText = colorRndm;
+	body[0].style.backgroundColor = colorRndm;
+	titulo.style.color = colorRndm;
 }
 
 function fnRandom() {
