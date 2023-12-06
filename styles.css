@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #656565;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	display: block;
+	background-color: aquamarine;
+	padding: 10px 20px;
+	margin: 10px;
+}
+
+button {
+	display: block;
+	padding: 10px 20px;
+	margin: 10px;
+}
+
+#colorhex-div {
+	display: flex;
+
+	background-color: #fff;
+	display: flex;
+	padding: 10px 20px;
+	margin: 10px;
+	border: solid 2px #ccc;
+}
+#colorhex-num {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 4rem;
+}
