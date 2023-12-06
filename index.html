@@ -11,10 +11,14 @@
   <!-- Estilos -->
   <link rel="stylesheet" href="styles.css">
 
-  <!-- Fuentes -->
+  <!-- Google Fonts  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
   <!-- Javascript -->
   <script src="app.js" type="text/javascript" defer></script>
 
@@ -24,7 +28,7 @@
 <body>
   <main>
     <h1 id="titulo">Colores Hex Aleatorios</h1>
-    <p>Ejercicio de práctica del curso de
+    <p class="texto-p">Ejercicio de práctica del curso de
       <br>JavaScript para Manipulación del DOM<br>
       de Estefania Cassingena Navone<br>
       para freeCodeCamp Español
@@ -35,7 +39,14 @@
     </p>
     <div id="colorhex-div">
       <p id="colorhex-num">#656565</p>
+      <span id="copy-button"><i class="fas fa-copy">
+          <p>COPIAR</p>
+        </i>
+      </span>
+
     </div>
+
+
     <button id="boton-cambiar">CAMBIAR COLOR</button>
 
   </main>

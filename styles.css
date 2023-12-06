@@ -31,23 +31,51 @@ h1 {
 	border-bottom: solid 1px #ccc;
 }
 
+.texto-p {
+	font-size: 12px;
+}
+
 #colorhex-div {
-	width: 200px;
+	width: 80%;
+	height: 60px;
+	padding-top: 5px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	gap: 1rem;
 	margin: 20px 0;
-	padding: 8px 0 5px 0;
 	background-color: #fff;
-	border: solid 2px #ccc;
 }
 #colorhex-num {
 	font-weight: bold;
 	font-size: 2.5rem;
 }
-button {
-	display: block;
-	padding: 10px 20px;
+button#boton-cambiar {
 	cursor: pointer;
 	user-select: none;
 	margin-bottom: 20px;
+	padding: 10px;
+	background-color: transparent;
+	border: solid 1px #1a1818;
+	color: #1a1818;
+}
+
+button#boton-cambiar:hover {
+	border-color: white;
+	color: #fff;
+}
+#copy-button {
+	font-size: 24px;
+	cursor: pointer;
+	color: #111010;
+}
+#copy-button:hover {
+	color: grey;
+}
+#copy-button:active {
+	color: rgb(190, 25, 25);
+}
+
+#copy-button p {
+	font-size: 0.7rem;
 }
